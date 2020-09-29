@@ -7,41 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://kit.fontawesome.com/1cd5a531a5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <section class="side-nav">
+    <nav>
 
-        <div class="menu-items">
-            <a href="#">botao</a>
-            <a href="#">botao</a>
-            <a href="#">botao</a>
-            <a href="#">botao</a>
-        </div>
-        
-    </section>
-
-    <section class="top-nav">
-
-        <h2>Dashboard de Investimentos</h2>
-        <div class="search-box">
-            <a class="search-btn" href="#">
-                botao
-            </a>
-            <input class="search-txt" type="text" placeholder="Procurar ativo">
+        <div class="nav-icons">
+            <a class="icon" href="#"><i class="fas fa-chart-line"></i></a>
+            <a class="icon" href="#"><i class="far fa-heart"></i></a>
+            <a class="icon" href="#"><i class="fas fa-cog"></i></a>
         </div>
 
-    </section>
+    </nav>
 
-    <section class="stocks-info">
+    <div class="container">
 
-        <div class="stock-up">1</div>
-        <div class="stock-down">2</div>
-        <div class="stock-graph">3</div>
+        <header>
 
-    </section>
+            <h1>Dashboard de Investimentos</h1>
+
+            <div class="search-box">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+                <input class="search-txt" type="text" placeholder="Procurar ativo">
+            </div>
     
+        </header>
+    
+        <div class="content">
+    
+            <section id="firstContent">
+    
+                <div class="stock half"></div>
+                <div class="stock half"></div>
+                
+            </section>
+    
+            <section id="secondContent">
+
+                <div class="stock"></div>
+
+            </section>
+    
+        </div>
+
+    </div>
+    
+
 </body>
 </html>
